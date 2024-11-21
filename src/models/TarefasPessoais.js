@@ -27,7 +27,7 @@ class TarefasPessoais extends Tarefa {
     }
 
     getInfo(){
-        console.log(`Descrição da tarefa Pessoal: ${this.getDescricao}, Status: ${this.getStatus}, Prioridade da tarefa: ${this.getPrioridade}, Data: ${this.getData}`)
+        console.log(`Tarefa Pessoal: ${this.getDescricao}, Status: ${this.getStatus}, Prioridade da tarefa: ${this.getPrioridade}, Data: ${this.getData}`)
     }
 }
 

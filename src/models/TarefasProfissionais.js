@@ -27,7 +27,7 @@ class TarefasProfissionais extends Tarefa {
     }
 
     getInfo(){
-        console.log(`Descrição da tarefa Profissional: ${this.getDescricao}, Status: ${this.getStatus}, Prioridade da tarefa: ${this.getPrioridade}, Data ${this.getData}`)
+        console.log(`Tarefa Profissional: ${this.getDescricao}, Status: ${this.getStatus}, Prioridade da tarefa: ${this.getPrioridade}, Data ${this.getData}`)
     }
 }
 

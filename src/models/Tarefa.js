@@ -24,7 +24,7 @@ class Tarefa {
     // }
 
     getInfo(){
-        console.log(`Descrição da tarefa: ${this.getDescricao}, Status: ${this.getStatus}`)
+        console.log(`Tarefa: ${this.getDescricao}, Status: ${this.getStatus}`)
     }
 
     finalizarTarefa(){
